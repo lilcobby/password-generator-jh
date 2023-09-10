@@ -13,6 +13,8 @@ function generatePassword() {
   let caps = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   if (confirm("Would you like capital letters?") == false) {
     caps = "";
+    // alert on selection
+    alert("you have selected no capital letters");
   }
   // checks if caps var changes
   console.log(caps);
@@ -20,18 +22,24 @@ function generatePassword() {
   let low = "abcdefghijklmnopqrstuvwxyz";
   if (confirm("Would you like lowercase letters?") == false) {
     low = "";
+    // alert on selection
+    alert("you have selected no lowercase letters");
   }
   // checks variable change
   console.log(low);
   let num = "0123456789";
   if (confirm("Would you like numbers?") == false) {
     num = "";
+    // alert on selection
+    alert("you have selected no numbers");
   }
   console.log(num);
 
   let spec = "!@#$%^&*()_+-=[]{};;<>?/,.";
   if (confirm("Would you like special characters?") == false) {
     spec = "";
+    // alert on selection
+    alert("you have selected no special characters");
   }
   var chars = caps + low + num + spec;
 
