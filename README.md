@@ -20,3 +20,9 @@ I added my own variables and logic to the code. What I used the video to better 
 Below is a screenshot of the webpage.
 
 ![Alt text](image.png)
+
+Below are the links to the page and my github repo:
+
+https://lilcobby.github.io/password-generator-jh/
+
+https://github.com/lilcobby/password-generator-jh
